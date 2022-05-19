@@ -67,7 +67,7 @@ public class Graph {
         }
 
         //결과값 출력
-        System.out.printf("------------------시작노드 %d에서 n노드까지의 최단경로------------------\n", v);
+        System.out.printf("------------------시작노드 %d에서 n노드까지의 최소 비용------------------\n", v);
         for (int i = 1; i < n + 1; i++) {
             System.out.printf("~노드%d: ", i);
             System.out.print(distance[i] + ", ");
